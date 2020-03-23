@@ -20,6 +20,10 @@ PRODUCT_PACKAGES += \
         PrimaryColorBlissClearOverlay \
         PrimaryColorBlissBlackOverlay
 
+# Custom Apps
+PRODUCT_PACKAGES += \
+     MiXplorer
+
 # Accents
 include vendor/overlay/accents.mk
 
