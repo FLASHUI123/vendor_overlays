@@ -9,13 +9,13 @@ PRODUCT_PACKAGES += \
     MatchmakerOverlay \
     AOSiPOverlayStub \
     PrimaryBlackOverlay \
-#    PrimaryCharcoalBlackOverlay \
-#    PrimaryClearOverlay \
-#    PrimaryEtherealOverlay \
-#    PrimaryFlameOverlay \
-#    PrimaryNatureOverlay \
-#    PrimaryOceanOverlay \
-#    PrimarySolarizedOverlay \
+    PrimaryCharcoalBlackOverlay \
+    PrimaryClearOverlay \
+    PrimaryEtherealOverlay \
+    PrimaryFlameOverlay \
+    PrimaryNatureOverlay \
+    PrimaryOceanOverlay \
+    PrimarySolarizedOverlay \
 #    EmptyOverlay \
 
 # Accents
@@ -27,11 +27,6 @@ include vendor/overlay/bootanimation.mk
 # Fonts
 include vendor/overlay/fonts.mk
 
-# Gapps
-ifeq ($(WITH_GAPPS),true)
-$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
-endif
-
 # LatinIME dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/overlay/dictionaries
 
@@ -39,4 +34,4 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/overlay/dictionaries
 #include packages/apps/PotatoPlugins/plugins.mk
 
 # Sounds
-include vendor/overlay/sounds.mk
+include vendor/overlay/audio.mk
