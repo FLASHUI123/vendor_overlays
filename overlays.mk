@@ -6,17 +6,21 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlay/common
 
 # Extra packages
 PRODUCT_PACKAGES += \
-    MatchmakerOverlay \
-    AOSiPOverlayStub \
-    PrimaryBlackOverlay \
-    PrimaryCharcoalBlackOverlay \
-    PrimaryClearOverlay \
-    PrimaryEtherealOverlay \
-    PrimaryFlameOverlay \
-    PrimaryNatureOverlay \
-    PrimaryOceanOverlay \
-    PrimarySolarizedOverlay \
-#    EmptyOverlay \
+        MatchmakerOverlay \
+        AOSiPOverlayStub \
+        PrimaryColorOneplusDarkOverlay \
+        PrimaryColorAOSiPNatureOverlay \
+        PrimaryColorAOSiPOceanOverlay \
+        PrimaryColorCharcoalBlackOverlay \
+        PrimaryColorLeadBlackOverlay \
+        PrimaryEtherealOverlay \
+        PrimaryColorDerpClearOverlay \
+        PrimaryColorSolarizedDarkOverlay \
+        PrimaryFlameOverlay \
+        PrimaryColorDarkBlueOverlay \
+        PrimaryColorEyeSootherOverlay \
+        PrimaryColorBlissClearOverlay \
+        PrimaryColorBlissBlackOverlay
 
 # Accents
 include vendor/overlay/accents.mk
