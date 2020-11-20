@@ -14,10 +14,16 @@ PRODUCT_PACKAGES += \
     FontSamsungOneSourceOverlay \
     FontSonySketchSourceOverlay \
     FontTitilliumWebSourceOverlay \
-    FontUbuntuSourceOverlay
+    FontUbuntuSourceOverlay \
+    FontCircularStdOverlay \
+    FontTinkerbell \
+    FontLinotte
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/fonts.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts.xml \
+    $(LOCAL_PATH)/prebuilt/CircularStd.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/CircularStd.ttf \
+    $(LOCAL_PATH)/prebuilt/GearTinkerbell.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/GearTinkerbell.ttf \
+    $(LOCAL_PATH)/prebuilt/Linotte.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Linotte.ttf \
     $(LOCAL_PATH)/prebuilt/Cagliostro-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Cagliostro-Regular.ttf \
     $(LOCAL_PATH)/prebuilt/FiraSans-Bold.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/FiraSans-Bold.ttf \
     $(LOCAL_PATH)/prebuilt/FiraSans-BoldItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/FiraSans-BoldItalic.ttf \
