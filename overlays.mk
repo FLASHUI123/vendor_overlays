@@ -46,6 +46,12 @@ PRODUCT_PACKAGES += \
      MiXplorer \
      Gallery
 
+# Fod Animations
+ifeq ($(EXTRA_FOD_ANIMATIONS),true)
+PRODUCT_PACKAGES += \
+    FodAnimationResources
+endif
+
 # Accents
 include vendor/overlay/accents.mk
 
