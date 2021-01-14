@@ -34,3 +34,4 @@ PRODUCT_PACKAGES += \
         AccentColorStarbucksOverlay \
 	AccentColorXboxOverlay \
 	AccentColorXiaomiOverlay
+        AccentColorOneplusOverlay
