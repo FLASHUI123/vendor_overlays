@@ -30,3 +30,5 @@ include vendor/overlay/accents.mk
 # Fonts
 include vendor/overlay/fonts.mk
 
+# Plugins
+include packages/apps/Plugins/plugins.mk
