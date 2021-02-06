@@ -20,6 +20,12 @@ PRODUCT_PACKAGES += \
         PrimaryColorBlissClearOverlay \
         PrimaryColorBlissBlackOverlay
 
+# FOD Animation
+ifeq ($(EXTRA_FOD_ANIMATIONS),true)
+PRODUCT_PACKAGES += \
+    FodAnimationResources
+endif
+
 # GVM
 PRODUCT_PACKAGES += \
     GVM-SBH-L \
