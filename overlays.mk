@@ -22,7 +22,8 @@ PRODUCT_PACKAGES += \
 
 # Custom Apps
 PRODUCT_PACKAGES += \
-     MiXplorer
+     MiXplorer \
+     Gallery
 
 # Accents
 include vendor/overlay/accents.mk
