@@ -1,10 +1,10 @@
 # Switch themes
 PRODUCT_PACKAGES += \
-    Stock \
-    OnePlus \
-    Narrow \
-    Contained \
-    Telegram \
-    Retro \
-    MD2 \
+    StockSwitch \
+    OnePlusSwitch \
+    NarrowSwitch \
+    ContainedSwitch \
+    TelegramSwitch \
+    RetroSwitch \
+    MD2Switch \
     OOS
