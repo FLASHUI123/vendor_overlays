@@ -29,6 +29,18 @@ PRODUCT_PACKAGES += \
     GVM-URM-L \
     GVM-URM-R
 
+# Navbar
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium \
+    GesturalNavigationOverlayHidden
+
+# Pill radius
+PRODUCT_PACKAGES += \
+    GesturalNavigationRadiusLow \
+    GesturalNavigationRadiusVeryLow \
+    GesturalNavigationRadiusHidden
+
 # Custom Apps
 PRODUCT_PACKAGES += \
      MiXplorer \
