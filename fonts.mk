@@ -17,7 +17,8 @@ PRODUCT_PACKAGES += \
     FontUbuntuSourceOverlay \
     FontCircularStdOverlay \
     FontTinkerbell \
-    FontLinotte
+    FontLinotte \
+    FontReemKufi
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/fonts.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts.xml \
@@ -39,6 +40,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/GoogleSans-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/GoogleSans-Regular.ttf \
     $(LOCAL_PATH)/prebuilt/LGSmartGothic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/LGSmartGothic.ttf \
     $(LOCAL_PATH)/prebuilt/Rosemary-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Rosemary-Regular.ttf \
+    $(LOCAL_PATH)/prebuilt/ReemKufi-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/ReemKufi-Regular.ttf \
     $(LOCAL_PATH)/prebuilt/SamsungOne.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/SamsungOne.ttf \
     $(LOCAL_PATH)/prebuilt/SlateFromOP-Light.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/SlateFromOP-Light.ttf \
     $(LOCAL_PATH)/prebuilt/SlateFromOP-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/SlateFromOP-Regular.ttf \
