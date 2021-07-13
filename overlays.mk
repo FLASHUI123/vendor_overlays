@@ -41,10 +41,16 @@ PRODUCT_PACKAGES += \
     GesturalNavigationRadiusVeryLow \
     GesturalNavigationRadiusHidden
 
-# Custom Apps
+
+# Switch themes
 PRODUCT_PACKAGES += \
-     MiXplorer \
-     Gallery
+    SwitchAOSP \
+    SwitchAndroid12 \
+    SwitchContained \
+    SwitchTelegram \
+    SwitchRetro \
+    SwitchMD2 \
+    SwitchOOS
 
 # Accents
 include vendor/overlay/accents.mk
