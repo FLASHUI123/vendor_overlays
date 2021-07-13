@@ -58,8 +58,5 @@ include vendor/overlay/accents.mk
 # Fonts
 include vendor/overlay/fonts.mk
 
-# Switch Styles
-include vendor/overlay/switch/switch.mk
-
 # Plugins
 include packages/apps/Plugins/plugins.mk
