@@ -7,4 +7,5 @@ PRODUCT_PACKAGES += \
     TelegramSwitch \
     RetroSwitch \
     MD2Switch \
-    OOS
+    OOS \
+    SwitchAndroid12
