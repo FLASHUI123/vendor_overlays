@@ -52,6 +52,13 @@ PRODUCT_PACKAGES += \
     SwitchMD2 \
     SwitchOOS
 
+# Brightness Slider
+PRODUCT_PACKAGES += \
+    SliderStyleOOS \
+    SliderStyleRUI \
+    SliderStyleA12 \
+    SliderStyleSpark
+
 # Accents
 include vendor/overlay/accents.mk
 
