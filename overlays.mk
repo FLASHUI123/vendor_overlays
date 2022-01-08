@@ -11,3 +11,7 @@ PRODUCT_PACKAGES += \
 
 #Fonts
 $(call inherit-product, vendor/overlays/fonts.mk)
+
+# Themes
+PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay
