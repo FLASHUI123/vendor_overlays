@@ -12,3 +12,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CustomPixelLauncherOverlay \
     NavigationBarModeGesturalOverlayFS
+
+#Fonts
+$(call inherit-product, vendor/overlays/fonts.mk)
