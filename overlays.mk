@@ -6,8 +6,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/common
 
 # RRO Overlays
 PRODUCT_PACKAGES += \
-    CustomPixelLauncherOverlay \
-    NavigationBarModeGesturalOverlayFS
+    CustomPixelLauncherOverlay
 
 #Fonts
 $(call inherit-product, vendor/overlays/fonts.mk)
