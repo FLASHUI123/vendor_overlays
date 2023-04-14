@@ -270,12 +270,10 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/overlays/fonts/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
     vendor/overlays/fonts/etc/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
+
+# UDFPS Resources
 ifeq ($(TARGET_HAS_UDFPS),true)
 PRODUCT_PACKAGES += \
-    UdfpsIcons
-
-ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
-PRODUCT_PACKAGES += \
+    UdfpsIcons \
     UdfpsAnimations
-endif
 endif
